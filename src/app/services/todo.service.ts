@@ -81,7 +81,7 @@ export class TodoService {
         //set text
         text: text,
         //set timestamp
-        createdAt: Date.now(),
+        createdAt: Math.floor(Date.now() / 1000),
         completed: false
       };
       

@@ -2,7 +2,7 @@
     <li *ngFor="let todo of todos" [ngClass]=" todo.completed == true ? 'completed' : '' ">
         <div>
             <p>#{{todo.id}} - {{todo.text}}</p>
-            <i>{{todo.createdAt*1000 | date: 'short'}}</i>
+            <i>{{todo.createdAt*1000 | date: 'dd/MM/YYYY hh:mm'}}</i>
         </div>
         <div>
             <input type="button" *ngIf="todo.completed === false" (click)="completingTodo(todo.id)" value="complete"/>
