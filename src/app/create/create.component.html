@@ -1,0 +1,3 @@
+<h4>Adding an item</h4>
+<input type="text" ngModel #todotext name="todotext" id="todotext" /> 
+<input type="button" (click)="saveNewTodo(todotext.value)" value="Add" />

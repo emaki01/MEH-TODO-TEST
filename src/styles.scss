@@ -1,0 +1,81 @@
+/* global */
+html{
+    font-size : 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0rem;
+}
+
+input{
+    min-height: 2.4rem;
+    margin: 0.5rem;
+}
+
+input[type=text] {
+    border: 0.1rem solid #1F618D;
+    border-radius: 0.4rem;
+}
+
+input[type=button] {
+    background-color: #1A5276;
+    border: 0.1rem solid #1A5276;
+    border-radius: 0.4rem;
+    text-align: center;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+}
+
+input[type=button]:active{
+    background-color: #2471A3;
+    border: 0.1rem solid #2471A3;
+}
+
+
+/* classes */
+nav.menu {
+    border-bottom: 0.1rem solid #D4E6F1;
+}
+
+ul{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0rem;
+    margin-left: 0rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul.horizontal li{
+    background-color: #D4E6F1;
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+ul.horizontal li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul.todos-list li{
+    min-height: 5rem;
+    width: 100%;
+    padding: 2rem 2rem;
+    border-bottom: #1A5276 0.1rem solid;
+}
+
+ul.todos-list li.completed{
+    background-color: #CCC;
+    text-decoration: line-through;
+    color: #454545;
+}
+
+
